@@ -3,4 +3,5 @@
     margin: 0px;
     box-sizing: border-box;
     overflow-x: hidden;
+    transition: all .5s;
 }

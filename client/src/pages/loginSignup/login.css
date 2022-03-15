@@ -9,17 +9,72 @@
     justify-content: center;
 }
 .loginCard {
+    text-align: center;
     padding: 20px;
     margin: 10px;
     display: flex;
     flex-direction: column;
     width: 80%;
     background: rgba(255, 255, 255, 0.431);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(51, 57, 134, 0.219);
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     min-height: 330px;
+    max-width: 650px;
+    z-index: 8;
+}
+.loginHeading {
+    padding: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.loginDetail {
+    font-size: 16px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: gray;
+}
+.box ,
+.circle {
+    position: absolute;
+    min-width: 40px;
+    background: rgba(255, 255, 255, 0.431);
+    box-shadow: 0 4px 24px 0 rgba(42, 47, 110, 0.192);
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    aspect-ratio: 1/1;
+}
+.box {
+    border-radius: 4px;
+}
+.circle {
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+}
+.box1 {
+    top: 18%;
+    left: 30%;
+    width: 120px;
+}
+.box2 {
+    top: 80%;
+    left: 60%;
+    width: 50px;
+}
+.circle1 {
+    top: 38%;
+    right: 10%;
+    width: 50px;
+}
+.circle2 {
+    top: 72%;
+    right: 80%;
+    width: 120px;
+    z-index: 9;
+}
