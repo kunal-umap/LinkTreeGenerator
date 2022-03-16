@@ -1,5 +1,6 @@
 import React from 'react';
 import './login.css';
+import Gicon from'../../assets/image/google.png';
 
 export default function LoginSignup() {
   return (
@@ -14,7 +15,7 @@ export default function LoginSignup() {
           Login to create your own link tree just with one click fully custoimizable
         </p>
         <div className="loginOption">
-          <img src="" alt="" />
+          <img src={Gicon} alt="" />
         </div>
       </div>
     </div>
