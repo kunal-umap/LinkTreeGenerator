@@ -22,7 +22,7 @@
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     min-height: 330px;
-    max-width: 650px;
+    max-width: 550px;
     z-index: 8;
 }
 .loginHeading {
@@ -37,6 +37,23 @@
     letter-spacing: 1px;
     color: gray;
 }
+
+.loginOption {
+    aspect-ratio: 1 / 1;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+.loginOption img {
+    cursor: pointer;
+    height: 98%;
+    aspect-ratio: 1/1;
+    padding: 40px;
+}
+.loginOption img:hover {
+    transform: rotate(360deg);
+}
+
 .box ,
 .circle {
     position: absolute;
@@ -59,7 +76,7 @@
 }
 .box1 {
     top: 18%;
-    left: 30%;
+    left: 40%;
     width: 120px;
 }
 .box2 {
@@ -69,12 +86,12 @@
 }
 .circle1 {
     top: 38%;
-    right: 10%;
-    width: 50px;
+    right: 8%;
+    width: 80px;
 }
 .circle2 {
     top: 72%;
-    right: 80%;
+    right: 60%;
     width: 120px;
     z-index: 9;
 }
