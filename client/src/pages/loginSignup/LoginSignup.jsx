@@ -1,7 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './login.css';
 import Gicon from'../../assets/image/google.png';
+import { useNavigate } from 'react-router-dom';
+import { useUserAuth } from '../../context/userAuth';
+import { async } from '@firebase/util';
 
+// const Login = () => {
+  //   // const [email,setEmail] = useState("");
+  //   // const navigate = useNavigate();
+  // }
+  const handleGoogleSignin = async (e) => {
+  const{ googleSignIn } = useUserAuth();
+  e.preventDefault();
+  try{
+    await googleSignIn();
+  }catch( err ){
+    console.log(err)
+  }
+}
 export default function LoginSignup() {
   return (
     <div className='loginPage'>
@@ -14,9 +30,9 @@ export default function LoginSignup() {
         <p className='loginDetail'>
           Login to create your own link tree just with one click fully custoimizable
         </p>
-        <div className="loginOption">
+        <button className="loginOption" onClick={ handleGoogleSignin}>
           <img src={Gicon} alt="" />
-        </div>
+        </button>
       </div>
     </div>
   );
