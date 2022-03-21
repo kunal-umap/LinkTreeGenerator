@@ -43,6 +43,8 @@
     height: 200px;
     text-align: center;
     overflow: hidden;
+    background: transparent;
+    border: none;
 }
 .loginOption img {
     cursor: pointer;

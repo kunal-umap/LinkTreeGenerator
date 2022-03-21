@@ -1,24 +1,26 @@
 import React from 'react';
 import './login.css';
 import Gicon from'../../assets/image/google.png';
-// import { useNavigate } from 'react-router-dom';
-// import { useUserAuth } from '../../context/userAuth';
-// import { async } from '@firebase/util';
+import { authentication } from '../../config/firebaseConfig';
+import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 
-// const Login = () => {
-  //   // const [email,setEmail] = useState("");
-  //   // const navigate = useNavigate();
-  // }
-//   const handleGoogleSignin = async (e) => {
-//   const{ googleSignIn } = useUserAuth();
-//   e.preventDefault();
-//   try{
-//     await googleSignIn();
-//   }catch( err ){
-//     console.log(err)
-//   }
-// }
+
+
 export default function LoginSignup() {
+
+  const signInWithGoogle = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithPopup(authentication, provider)
+    .then((res)=> {
+      console.log(res)
+
+    }).catch((err)=> {
+      alert(err);
+
+    })
+  }
+
+
   return (
     <div className='loginPage'>
       <div className="box box1"></div>
@@ -31,7 +33,7 @@ export default function LoginSignup() {
           Login to create your own link tree just with one click fully custoimizable
         </p>
         <button className="loginOption" >
-          <img src={Gicon} alt="" />
+          <img src={Gicon} alt="" onClick={signInWithGoogle} />
         </button>
       </div>
     </div>
