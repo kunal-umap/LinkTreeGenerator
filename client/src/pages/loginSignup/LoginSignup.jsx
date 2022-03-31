@@ -3,20 +3,26 @@ import './login.css';
 import Gicon from'../../assets/image/google.png';
 import { authentication } from '../../config/firebaseConfig';
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
-
+import {useNavigate} from 'react-router-dom';
 
 
 export default function LoginSignup() {
 
-  const signInWithGoogle = () => {
+  const navigate = useNavigate();
+  function signInWithGoogle(event) {
+    event.preventDefault();
     const provider = new GoogleAuthProvider();
     signInWithPopup(authentication, provider)
     .then((res)=> {
-      console.log(res)
-
+      localStorage.setItem("token",res.user.accessToken)
+      localStorage.setItem("name",res.user.displayName)
+      localStorage.setItem("email",res.user.email)
+      if(res._tokenResponse.isNewUser == true){
+        navigate('/');
+      }
+      navigate('/');
     }).catch((err)=> {
       alert(err);
-
     })
   }
 
