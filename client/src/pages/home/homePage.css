@@ -14,3 +14,21 @@
     margin-top: 80px;
     color: red;
 }
+.LogOut {
+    border: none;
+    outline: 0;
+    color: white;
+    background: red;
+    border-radius: 8px;
+    padding: 12px;
+    width: 110px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.LogOut:hover {
+    color: red;
+    background: white;
+}

@@ -3,3 +3,33 @@
     min-height: 100vh;
     width: 100vw;
 }
+.Detailform {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 18px;
+    padding: 15px;
+}
+.Detailform input,
+.Detailform textarea,
+.Detailform button {
+    padding: 8px;
+    margin: 6px 0px;
+    
+}
+.Detailform button {
+    color: white;
+    background: green;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    width: 110px;
+    padding: 12px;
+    text-align: center;
+    margin: 6px auto;
+}
+.Detailform button:hover {
+    background: white;
+    color: green;
+}

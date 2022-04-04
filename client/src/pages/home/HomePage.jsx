@@ -5,6 +5,10 @@ import { Link, useNavigate } from 'react-router-dom';
 export default function HomePage() {
   const [name,setName] = useState('');
   const navigate = useNavigate();
+  function logout(){
+    localStorage.clear();
+    navigate('/login');
+  }
   useEffect(()=> {
     if(localStorage.getItem("token") == null){
       navigate('/login');
@@ -15,6 +19,7 @@ export default function HomePage() {
   return (
     <div className='homePage'>
         <h1>Welcome  {name} ..!</h1>
+        <button onClick={logout} className="LogOut">Logout</button>
         <h2>Make Your Own Link Tree..!</h2>
         <Link to={'/detail'} className="link" >Fill Out your Detail Here</Link>
     </div>
