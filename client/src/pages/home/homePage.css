@@ -4,15 +4,35 @@
     width: 100vw;
     background: linear-gradient(to top right,yellow,pink,violet);
 }
+
 .homePage h1 {
     text-align: center;
+    margin: 8px;
+    padding: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: -webkit-linear-gradient(left, #f00, #ff2b00, #f50, #ff8000, #fa0, #ffd500, #ff0, #d4ff00, #af0, #80ff00, #5f0, #2bff00, #0f0, #00ff2a, #0f5, #00ff80, #0fa, #00ffd5, #0ff, #00d5ff, #0af, #0080ff, #05f, #002aff, #00f, #2b00ff, #50f, #8000ff, #a0f, #d400ff, #f0f, #ff00d4, #f0a, #ff0080, #f05, #ff002b, #f00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #0000;
+    background-clip: text;
+}
+.homePage h2 {
+    padding: 8px;
+    margin: 28px;
 }
 .link {
+    position: relative;
     text-decoration: none;
     margin: 18px;
     padding: 14px;
     margin-top: 80px;
-    color: red;
+    color: white;
+    background: blue;
+    border-radius: 9px;
+    font-weight: 600;
+}
+.link:hover {
+    color: blue;
+    background: white;
 }
 .LogOut {
     border: none;
