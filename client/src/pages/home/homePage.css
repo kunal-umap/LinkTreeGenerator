@@ -1,4 +1,7 @@
 .homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     min-height: 100vh;
     width: 100vw;
@@ -17,18 +20,18 @@
 }
 .homePage h2 {
     padding: 8px;
-    margin: 28px;
+    margin-top: 28px;
 }
 .link {
     position: relative;
     text-decoration: none;
     margin: 18px;
     padding: 14px;
-    margin-top: 80px;
     color: white;
     background: blue;
     border-radius: 9px;
     font-weight: 600;
+    margin-bottom: 60px;
 }
 .link:hover {
     color: blue;
@@ -51,4 +54,44 @@
 .LogOut:hover {
     color: red;
     background: white;
+}
+
+.domainname {
+    position: relative;
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    background: white;
+    width: min-content;
+    min-height: 50px;
+    text-align: center;
+}
+.domainname span {
+    padding: 1px;
+    padding-left: 20px;
+}
+.domain {
+    padding: 1px;
+    border: dotted 0.5px;
+    outline: none;
+    font-size: 18px;
+}
+.savedom {
+    height: 50px;
+    padding: 8px;
+    border: none;
+    margin-left: 20px;
+    width: 100px;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    background: blue;
+}
+.savedom:hover {
+    color: blue;
+    background: white;
+}
+.guyde {
+    color: gray;
 }

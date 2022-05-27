@@ -22,6 +22,15 @@ export default function HomePage() {
         <button onClick={logout} className="LogOut">Logout</button>
         <h2>Make Your Own Link Tree..!</h2>
         <Link to={'/detail'} className="link" >Fill Out your Detail Here</Link>
+        <span className='guyde'>Set linktree URL</span>
+        <div className="domainname">
+          <span>www.linktreek.com/</span>
+          <input className='domain' type="text" />
+          <button className='savedom'>Save</button>
+        </div>
+        <div className="theamSection">
+
+        </div>
     </div>
   );
 }
