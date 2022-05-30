@@ -29,7 +29,7 @@ export default function HomePage() {
           <button className='savedom'>Save</button>
         </div>
         <div className="theamSection">
-
+          <Link to={'/linktree'} >LInktree</Link>
         </div>
     </div>
   );
