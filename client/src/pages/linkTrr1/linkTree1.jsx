@@ -1,6 +1,9 @@
-import React from 'react'
-import './linktree1.css'
+import React from 'react';
+
+import './linktree1.css';
+
 export default function LinkTree1() {
+
   return (
     <div className='linktree'>
         <div className="tree">
@@ -20,4 +23,5 @@ export default function LinkTree1() {
         </div>
     </div>
   )
+
 }

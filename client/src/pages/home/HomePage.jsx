@@ -30,6 +30,7 @@ export default function HomePage() {
         </div>
         <div className="theamSection">
           <Link to={'/linktree'} >LInktree</Link>
+          <Link to={'/linktree2'} >LInktree1</Link>
         </div>
     </div>
   );
