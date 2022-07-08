@@ -42,6 +42,7 @@
     color: black;
     text-decoration: none;
     font-weight: 600;
+    letter-spacing: 1px;
     font-size: 14px;
     font-family:  sans-serif;
     padding: 13px;
@@ -51,5 +52,9 @@
     text-align: center;
     max-width: 450px;
     box-shadow: -8px 8px 18px rgba(0, 0, 0, 0.382);
+}
+.treeLinks a:hover {
+    background-color: black;
+    color: #fff;
 }
 
