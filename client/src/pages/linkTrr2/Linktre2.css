@@ -16,11 +16,32 @@
     background: #fff;
     flex: 2;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.name {
+    display: flex;
     flex-direction: column;
 }
-.rightsect h1{
-    width: 100%;
+.trrHedName {
+    margin-left: 60px;
+}
+.exc {
+    color: red;
+}
+.image {
+    padding: 0px;
+    margin: 0px;
+}
+.image img {
+    padding: 0px;
+    margin: 0px;
+    width: 150px;
+    aspect-ratio: 1 / 1;
+}
+.detailSec {
     text-align: center;
+    padding: 18px;
+    font-family: sans-serif;
 }
