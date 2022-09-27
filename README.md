@@ -61,6 +61,31 @@ The app to to get your link tree just paste link and get your link tree link
    ```
     npm start
    ```
+ 6) **Before making any changes in the repository, always take a pull from the upstream repository to your branch to keep it updated with remote repository.**
+   ```
+   git pull upstream main
+   ```
+ 7) **Create a new branch**.
+   ```
+   git checkout -b <your_branch_name>
+   ```
+ 8) **Make necessary changes that are required.**
+
+ 9) **Track Your Changes**
+   ```
+   git add .
+   ```
+ 10) **Commit your changes.**
+   ```
+   git commit -m "Relevant message"
+   ```
+ 11) **Push the committed changes in your branch to your remote repo.**
+    ```
+    git push -u origin <your_branch_name>
+    ```
+ 12) **Make The Pull Request (PR)** 🚀
+ 13) Wooohoo! You have successfully made a PR to the Repo- LinkTree ✨ . Wait for your Submission to be Accepted and your PR to be Merged!.
+
    
    # This is under devlopment (If you like it then give a 🌟)
    # Contributions are always welcome! ❤️
