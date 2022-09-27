@@ -1,7 +1,33 @@
 # ✨LinkTreeGenerator🚀
 The app to to get your link tree just paste link and get your link tree link
 <hr>
+<div align="center">
+ 
+![Forks](https://img.shields.io/github/forks/kunal-umap/LinkTreeGenerator)
+![Stars](https://img.shields.io/github/stars/kunal-umap/LinkTreeGenerator)
+<br />
+[![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/kunal-umap)
+[![Visits](https://komarev.com/ghpvc/?username=kunal-umap&label=You%20Are%20Visitor%20No.&color=f20707&logo=github&style=flat-square)](https://github.com/kunal-umap/LinkTreeGenerator)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/kunal-umap/LinkTreeGenerator)
+![Lines of code](https://img.shields.io/tokei/lines/github/kunal-umap/LinkTreeGenerator?color=red&label=Lines%20of%20Code)
+![License](https://img.shields.io/badge/License-MIT-red.svg)
+<br/>
+[![Updated Badge](https://img.shields.io/github/last-commit/kunal-umap/LinkTreeGenerator?label=Last%20Updated&style=flat)](https://github.com/kunal-umap/LinkTreeGenerator/commits)
+[![Number of Contributors](https://img.shields.io/github/contributors/kunal-umap/LinkTreeGenerator?style=flat&label=Contributors)](https://github.com/kunal-umap/LinkTreeGenerator/graphs/contributors)
+[![Issues opened](https://img.shields.io/github/issues/kunal-umap/LinkTreeGenerator?label=Issues)](https://github.com/kunal-umap/LinkTreeGenerator)
+[![Issues closed](https://img.shields.io/github/issues-closed/kunal-umap/LinkTreeGenerator?label=Issues)](https://github.com/kunal-umap/LinkTreeGenerator/issues)
+[![PRs open](https://img.shields.io/github/issues-pr/kunal-umap/LinkTreeGenerator?label=Pull%20Requests)](https://github.com/kunal-umap/LinkTreeGenerator/pulls)
+[![PRs closed](https://img.shields.io/github/issues-pr-closed/kunal-umap/LinkTreeGenerator?label=Pull%20Requests)](https://github.com/kunal-umap/LinkTreeGenerator/pulls)
+<br/>
+</div>
+
 <h3>How to get started 🤔</h3>
+
+## 🎉Contributing Guidelines 📝
+
+- Thanks a Ton for showing your interest in contributing to our Repository! Pull requests are Welcome. For major changes, please open an Issue first to discuss what you would like to change.
+
+- To start contributing to this Repository, follow the below guidelines:
 
  1) **Fork Repositories.**
  
