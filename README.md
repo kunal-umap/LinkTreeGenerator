@@ -1,7 +1,7 @@
 # ✨LinkTreeGenerator🚀
 The app to to get your link tree just paste link and get your link tree link
 <hr>
-<h3>How to use 🤔</h3>
+<h3>How to get started 🤔</h3>
 
  1) **Fork Repositories.**
  
@@ -37,3 +37,4 @@ The app to to get your link tree just paste link and get your link tree link
    ```
    
    # This is under devlopment (If you like it then give a 🌟)
+   # Contributions are always welcome! ❤️
