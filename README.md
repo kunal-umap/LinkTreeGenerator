@@ -1,7 +1,10 @@
 # ✨LinkTreeGenerator🚀
 *HACKTOBERFEAST*
 
+<h3 align="center">This site will let you choose different theam and and create your linktree easily Wherw all your social links are stored</h3>
+
 The app to to get your link tree just paste link and get your link tree link
+
 <hr>
 <div align="center">
  
