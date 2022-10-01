@@ -1,4 +1,6 @@
 # ✨LinkTreeGenerator🚀
+*HACKTOBERFEAST*
+
 The app to to get your link tree just paste link and get your link tree link
 <hr>
 <div align="center">
