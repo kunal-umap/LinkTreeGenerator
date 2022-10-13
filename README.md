@@ -1,7 +1,7 @@
 # ✨LinkTreeGenerator🚀
 *HACKTOBERFEAST*
 
-<h3 align="center">This site will let you choose different theam and and create your linktree easily Wherw all your social links are stored</h3>
+<h3 align="center">This site will let you choose different theme and and create your Linktree easily where all your social links are stored</h3>
 
 The app to to get your link tree just paste link and get your link tree link
 
@@ -30,13 +30,13 @@ The app to to get your link tree just paste link and get your link tree link
 
 ## 🎉Contributing Guidelines 📝
 
-- Thanks a Ton for showing your interest in contributing to our Repository! Pull requests are Welcome. For major changes, please open an Issue first to discuss what you would like to change.
+- Thanks a ton for showing your interest in contributing to our repository! Pull requests are welcome. For major changes, please open an Issue first to discuss what you would like to change.
 
 - To start contributing to this Repository, follow the below guidelines:
 
  1) **Fork Repositories.**
  
- 3) **Clone to to your local system by using following comand.**
+ 3) **Clone to to your local system by using following command.**
    ```
    git clone https://github.com/<your_user_name>/LinkTreeGenerator.git
    ```
@@ -92,5 +92,5 @@ The app to to get your link tree just paste link and get your link tree link
  13) Wooohoo! You have successfully made a PR to the Repo- LinkTree ✨ . Wait for your Submission to be Accepted and your PR to be Merged!.
 
    
-   # This is under devlopment (If you like it then give a 🌟)
+   # This is under development (If you like it then give a 🌟)
    # Contributions are always welcome! ❤️
