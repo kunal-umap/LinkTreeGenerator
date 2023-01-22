@@ -1,5 +1,4 @@
 # ✨LinkTreeGenerator🚀
-*HACKTOBERFEAST*
 
 <h3 align="center">This site will let you choose different theme and and create your Linktree easily where all your social links are stored</h3>
 
